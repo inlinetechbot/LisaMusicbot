@@ -1,87 +1,62 @@
-🎵 LisaMusic Telegram Music Bot
+<p align="center">
+  <img src="https://telegra.ph/file/5c1f1d8e9d7b3e3a6b7c4.jpg" width="180"/>
+</p>
 
-LisaMusic is a powerful and advanced Telegram Group Music Bot that allows users to play high-quality music in Telegram voice chats with smooth performance and rich features.
+<h1 align="center">🎵 LisaMusic</h1>
 
+<p align="center">
+  <b>Advanced Telegram Voice Chat Music Bot</b><br>
+  Smooth • Fast • Reliable
+</p>
 
----
-
-✨ Features
-
-🎶 Play music in Telegram voice chats
-
-🔍 Search and stream songs from multiple sources
-
-📜 Queue management (add, remove, skip tracks)
-
-⏯️ Pause, resume, stop playback
-
-🤖 Userbot assistant support (string session)
-
-🔐 Secure MongoDB database integration
-
-👑 Owner-only admin commands
-
-📢 Logger group support
-
-🚀 Stable and optimized performance
-
-
+<p align="center">
+  <a href="https://t.me/your_bot_username">🤖 Bot</a> •
+  <a href="https://t.me/your_support">💬 Support</a> •
+  <a href="https://t.me/your_updates">📢 Updates</a> •
+  <a href="https://telegra.ph/Privacy-Policy-for-LisaMusic-12-18">🔐 Privacy</a>
+</p>
 
 ---
 
-🧰 Requirements
+## ✨ About LisaMusic
 
-Python 3.10+
+**LisaMusic** is a powerful and fully white-labeled **Telegram Music Bot** designed to stream high-quality music in Telegram voice chats with stability and speed.
 
-Telegram API_ID & API_HASH
-
-Telegram Bot Token
-
-Userbot String Session
-
-MongoDB URI
-
-VPS / Cloud / Hosting with voice support
-
-
+Built for performance, scalability, and ease of use.
 
 ---
 
-📂 Project Structure
+## 🚀 Features
 
-LisaMusic/
-│
-├── LisaX/
-│   ├── __main__.py
-│   ├── core/
-│   │   ├── bot.py
-│   │   ├── call.py
-│   │   ├── mongo.py
-│   │   ├── userbot.py
-│   │   └── ...
-│
-├── plugins/
-│   ├── admin.py
-│   ├── play.py
-│   ├── privacy.py
-│   └── ...
-│
-├── config/
-│   └── config.py
-│
-├── requirements.txt
-├── sample.env
-├── Dockerfile
-├── Procfile
-└── README.md
-
+🎶 High-quality music streaming  
+🔍 Song search from multiple sources  
+📜 Smart queue management  
+⏯️ Pause, resume, skip & stop  
+🤖 Userbot assistant support  
+🔐 MongoDB database integration  
+👑 Owner-only admin controls  
+📢 Logger group support  
+⚡ Optimized & stable performance  
 
 ---
 
-⚙️ Configuration
+## 🧰 Requirements
 
-Rename sample.env to .env and fill in the required values:
+- Python **3.10+**
+- Telegram **API_ID** & **API_HASH**
+- Telegram **Bot Token**
+- **Userbot String Session**
+- **MongoDB URI**
+- VPS / Cloud hosting with voice chat support
 
+---
+---
+
+## ⚙️ Configuration
+
+Rename `sample.env` to `.env` and fill in:
+
+```env
 API_ID=your_api_id
 API_HASH=your_api_hash
 BOT_TOKEN=your_bot_token
@@ -92,18 +67,17 @@ MONGO_DB_URI=your_mongodb_uri
 OWNER_ID=your_telegram_id
 LOGGER_ID=your_logger_group_id
 
-⚠️ Do not use quotes and do not add spaces.
+
+> ⚠️ Do not use quotes and do not add extra spaces.
+
+
 
 
 ---
 
-▶️ Installation & Run
-
-Install dependencies
+▶️ Installation
 
 pip3 install -r requirements.txt
-
-Start the bot
 
 python3 -m LisaX
 
@@ -112,30 +86,30 @@ python3 -m LisaX
 
 🎮 Commands
 
-User Commands
+👥 User Commands
 
 /play – Play music
 
-/pause – Pause playback
+/pause – Pause music
 
-/resume – Resume playback
+/resume – Resume music
 
-/skip – Skip current track
+/skip – Skip track
 
 /stop – Stop music
 
-/queue – Show queue
+/queue – View queue
 
-/privacy – View privacy policy
+/privacy – Privacy policy
 
 
-Admin / Owner Commands
+👑 Admin / Owner Commands
 
-/broadcast – Broadcast message (owner only)
+/broadcast – Broadcast message
 
 /stats – Bot statistics
 
-/reload – Reload configuration
+/reload – Reload bot
 
 
 
@@ -143,10 +117,10 @@ Admin / Owner Commands
 
 🔐 Privacy Policy
 
-LisaMusic respects user privacy and data protection.
+We respect user privacy and data security.
 
-📜 Read our Privacy Policy here:
-https://telegra.ph/Privacy-Policy-for-LisaMusic-12-18
+📜 Read here:
+👉 https://telegra.ph/Privacy-Policy-for-LisaMusic-12-18
 
 
 ---
@@ -161,7 +135,7 @@ Render
 
 Docker-based hosting
 
-Any Python-supported hosting with voice chat support
+Any Python-supported platform with VC support
 
 
 
@@ -175,8 +149,8 @@ The developer is not responsible for misuse or copyright issues.
 
 ---
 
-👤 Developer
+👤 Maintainer
 
-Maintained by: Legend PlayYT
-Bot Name: LisaMusic
+@inlinetech
+Telegram Music Bot Developer
 
