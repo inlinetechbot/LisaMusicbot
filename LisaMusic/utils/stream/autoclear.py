@@ -4,7 +4,7 @@
 
 import os
 from config import autoclean
-from VenomX.utils.decorators import asyncify
+from LisaMusic.utils.decorators import asyncify
 
 
 @asyncify
