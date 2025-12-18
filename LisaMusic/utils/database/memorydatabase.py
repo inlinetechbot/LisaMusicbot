@@ -7,7 +7,7 @@ import os
 from typing import Dict, List, Union
 
 import config
-from VenomX.core.mongo import mongodb
+from LisaMusic.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
