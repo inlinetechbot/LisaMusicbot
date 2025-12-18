@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/5c1f1d8e9d7b3e3a6b7c4.jpg" width="180"/>
+  <img src="https://files.catbox.moe/c9jn6h.jpg" width="180"/>
 </p>
 
 <h1 align="center">🎵 LisaMusic</h1>
@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="https://t.me/your_bot_username">🤖 Bot</a> •
-  <a href="https://t.me/your_support">💬 Support</a> •
-  <a href="https://t.me/your_updates">📢 Updates</a> •
+  <a href="https://t.me/inlinetech_support">💬 Support</a> •
+  <a href="https://t.me/inlinetech_updates">📢 Updates</a> •
   <a href="https://telegra.ph/Privacy-Policy-for-LisaMusic-12-18">🔐 Privacy</a>
 </p>
 
