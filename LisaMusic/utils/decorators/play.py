@@ -9,10 +9,10 @@ from pyrogram.errors import ChannelPrivate
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE
 from config import adminlist
 from strings import get_string
-from VenomX import Platform, app
-from VenomX.core.call import Ayush
-from VenomX.misc import SUDOERS
-from VenomX.utils.database import (
+from LisaMusic import Platform, app
+from LisaMusic.core.call import Ayush
+from LisaMusic.misc import SUDOERS
+from LisaMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -23,7 +23,7 @@ from VenomX.utils.database import (
     is_maintenance,
     is_served_private_chat,
 )
-from VenomX.utils.inline import botplaylist_markup
+from LisaMusic.utils.inline import botplaylist_markup
 
 links = {}
 
