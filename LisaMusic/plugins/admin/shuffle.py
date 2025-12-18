@@ -9,9 +9,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import command
-from VenomX import app
-from VenomX.misc import db
-from VenomX.utils.decorators import AdminRightsCheck
+from LisaMusic import app
+from LisaMusic.misc import db
+from LisaMusic.utils.decorators import AdminRightsCheck
 
 
 @app.on_message(command("SHUFFLE_COMMAND") & filters.group & ~BANNED_USERS)
