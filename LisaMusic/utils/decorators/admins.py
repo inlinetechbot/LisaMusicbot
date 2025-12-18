@@ -7,9 +7,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
 from strings import get_string
-from VenomX import app
-from VenomX.misc import SUDOERS
-from VenomX.utils.database import (
+from LisaMusic import app
+from LisaMusic.misc import SUDOERS
+from LisaMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
