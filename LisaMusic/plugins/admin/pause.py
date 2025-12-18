@@ -8,10 +8,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import command
-from VenomX import app
-from VenomX.core.call import Ayush
-from VenomX.utils.database import is_music_playing, music_off
-from VenomX.utils.decorators import AdminRightsCheck
+from LisaMusic import app
+from LisaMusic.core.call import Ayush
+from LisaMusic.utils.database import is_music_playing, music_off
+from LisaMusic.utils.decorators import AdminRightsCheck
 
 
 @app.on_message(command("PAUSE_COMMAND") & filters.group & ~BANNED_USERS)
