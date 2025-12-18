@@ -3,8 +3,8 @@
 #
 
 
-from VenomX import app
-from VenomX.utils.database import get_cmode
+from LisaMusic import app
+from LisaMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
