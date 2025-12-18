@@ -8,8 +8,8 @@ from traceback import format_exc as err
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.types import Message
 
-from VenomX import app
-from VenomX.misc import SUDOERS
+from LisaMusic import app
+from LisaMusic.misc import SUDOERS
 
 
 async def member_permissions(chat_id: int, user_id: int):
