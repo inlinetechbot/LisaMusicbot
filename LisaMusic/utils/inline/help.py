@@ -4,7 +4,7 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import SUPPORT_GROUP
-from VenomX import app
+from LisaMusic import app
 
 
 def support_group_markup(_):
