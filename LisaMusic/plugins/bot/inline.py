@@ -10,8 +10,8 @@ from pyrogram.types import (
 )
 
 from config import BANNED_USERS
-from VenomX import app
-from VenomX.utils.inlinequery import answer
+from LisaMusic import app
+from LisaMusic.utils.inlinequery import answer
 
 
 @app.on_inline_query(~BANNED_USERS)
