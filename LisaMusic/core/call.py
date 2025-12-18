@@ -18,9 +18,9 @@ from pytgcalls.types import StreamAudioEnded
 
 import config
 from strings import get_string
-from VenomX import LOGGER, Platform, app, userbot
-from VenomX.misc import db
-from VenomX.utils.database import (
+from LisaMusic import LOGGER, Platform, app, userbot
+from LisaMusic.misc import db
+from LisaMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_audio_bitrate,
@@ -33,10 +33,10 @@ from VenomX.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from VenomX.utils.exceptions import AssistantErr
-from VenomX.utils.inline.play import stream_markup, telegram_markup
-from VenomX.utils.stream.autoclear import auto_clean
-from VenomX.utils.thumbnails import gen_thumb
+from LisaMusic.utils.exceptions import AssistantErr
+from LisaMusic.utils.inline.play import stream_markup, telegram_markup
+from LisaMusic.utils.stream.autoclear import auto_clean
+from LisaMusic.utils.thumbnails import gen_thumb
 
 from pyrogram.errors import (
     ChannelsTooMuch,
@@ -46,8 +46,8 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
 )
 
-from VenomX.core.userbot import assistants
-from VenomX.utils.database import (
+from LisaMusic.core.userbot import assistants
+from LisaMusic.utils.database import (
     get_assistant,
     get_lang,
     set_assistant,
