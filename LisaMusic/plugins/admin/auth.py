@@ -7,15 +7,15 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import command, command
-from VenomX import app
-from VenomX.utils.database import (
+from LisaMusic import app
+from LisaMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from VenomX.utils.decorators import AdminActual, language
-from VenomX.utils.formatters import int_to_alpha
+from LisaMusic.utils.decorators import AdminActual, language
+from LisaMusic.utils.formatters import int_to_alpha
 
 
 @app.on_message(command("AUTH_COMMAND") & filters.group & ~BANNED_USERS)
