@@ -6,8 +6,8 @@ import random
 
 from pytgcalls import PyTgCalls
 
-from VenomX import userbot
-from VenomX.core.mongo import mongodb
+from LisaMusic import userbot
+from LisaMusic.core.mongo import mongodb
 
 db = mongodb.assistants
 
@@ -33,7 +33,7 @@ async def save_assistant(chat_id, number):
 
 
 async def set_assistant(chat_id):
-    from VenomX.core.userbot import assistants
+    from LisaMusic.core.userbot import assistants
 
     dbassistant = await db.find_one({"chat_id": chat_id})
     current_assistant = dbassistant["assistant"] if dbassistant else None
@@ -57,7 +57,7 @@ async def set_assistant(chat_id):
 
 
 async def get_assistant(chat_id: int) -> str:
-    from VenomX.core.userbot import assistants
+    from LisaMusic.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
@@ -84,7 +84,7 @@ async def get_assistant(chat_id: int) -> str:
 
 
 async def set_calls_assistant(chat_id):
-    from VenomX.core.userbot import assistants
+    from LisaMusic.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -97,7 +97,7 @@ async def set_calls_assistant(chat_id):
 
 
 async def group_assistant(self, chat_id: int) -> PyTgCalls:
-    from VenomX.core.userbot import assistants
+    from LisaMusic.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
