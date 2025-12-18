@@ -9,20 +9,20 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from VenomX import Platform, app
-from VenomX.core.call import Ayush
-from VenomX.misc import db
-from VenomX.utils.database import (
+from LisaMusic import Platform, app
+from LisaMusic.core.call import Ayush
+from LisaMusic.misc import db
+from LisaMusic.utils.database import (
     add_active_video_chat,
     is_active_chat,
     is_video_allowed,
 )
-from VenomX.utils.exceptions import AssistantErr
-from VenomX.utils.inline.play import stream_markup, telegram_markup
-from VenomX.utils.inline.playlist import close_markup
-from VenomX.utils.pastebin import Ayushbin
-from VenomX.utils.stream.queue import put_queue, put_queue_index
-from VenomX.utils.thumbnails import gen_qthumb, gen_thumb
+from LisaMusic.utils.exceptions import AssistantErr
+from LisaMusic.utils.inline.play import stream_markup, telegram_markup
+from LisaMusic.utils.inline.playlist import close_markup
+from LisaMusic.utils.pastebin import Ayushbin
+from LisaMusic.utils.stream.queue import put_queue, put_queue_index
+from LisaMusic.utils.thumbnails import gen_qthumb, gen_thumb
 
 
 async def stream(
