@@ -13,9 +13,9 @@ from pyrogram.types import Message
 from yt_dlp import YoutubeDL
 
 import config
-from VenomX.utils.database import is_on_off
-from VenomX.utils.decorators import asyncify
-from VenomX.utils.formatters import seconds_to_min, time_to_seconds
+from LisaMusic.utils.database import is_on_off
+from LisaMusic.utils.decorators import asyncify
+from LisaMusic.utils.formatters import seconds_to_min, time_to_seconds
 
 NOTHING = {"cookies_dead": None}
 
