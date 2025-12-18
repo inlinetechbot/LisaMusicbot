@@ -9,7 +9,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from VenomX.core.mongo import pymongodb
+from LisaMusic.core.mongo import pymongodb
 
 from .logging import LOGGER
 
