@@ -3,7 +3,7 @@
 #
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VenomX import app
+from LisaMusic import app
 
 
 def back_stats_markup(_):
