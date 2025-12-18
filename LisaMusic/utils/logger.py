@@ -1,8 +1,8 @@
 
 # All rights reserved.
 from config import LOG, LOGGER_ID
-from VenomX import app
-from VenomX.utils.database import is_on_off
+from LisaMusic import app
+from LisaMusic.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
