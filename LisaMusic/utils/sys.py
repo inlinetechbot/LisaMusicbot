@@ -5,7 +5,7 @@ import time
 
 import psutil
 
-from VenomX.misc import _boot_
+from LisaMusic.misc import _boot_
 
 from .formatters import get_readable_time
 
