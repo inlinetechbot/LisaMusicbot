@@ -9,14 +9,14 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import command
-from VenomX import Platform, app
-from VenomX.core.call import Ayush
-from VenomX.misc import db
-from VenomX.utils.database import get_loop
-from VenomX.utils.decorators import AdminRightsCheck
-from VenomX.utils.inline.play import stream_markup, telegram_markup
-from VenomX.utils.stream.autoclear import auto_clean
-from VenomX.utils.thumbnails import gen_thumb
+from LisaMusic import Platform, app
+from LisaMusic.core.call import Ayush
+from LisaMusic.misc import db
+from LisaMusic.utils.database import get_loop
+from LisaMusic.utils.decorators import AdminRightsCheck
+from LisaMusic.utils.inline.play import stream_markup, telegram_markup
+from LisaMusic.utils.stream.autoclear import auto_clean
+from LisaMusic.utils.thumbnails import gen_thumb
 
 
 @app.on_message(command("SKIP_COMMAND") & filters.group & ~BANNED_USERS)
