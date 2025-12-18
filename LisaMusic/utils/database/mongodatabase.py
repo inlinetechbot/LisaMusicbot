@@ -4,7 +4,7 @@
 
 from typing import Dict, List, Union
 
-from VenomX.core.mongo import mongodb
+from LisaMusic.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
