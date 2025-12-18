@@ -13,12 +13,12 @@ import config
 from config import BANNED_USERS, START_IMG_URL
 from config.config import OWNER_ID
 from strings import command, get_string
-from VenomX import Platform, app
-from VenomX.misc import SUDOERS, _boot_
-from VenomX.plugins.bot.help import paginate_modules
-from VenomX.plugins.play.playlist import del_plist_msg
-from VenomX.plugins.sudo.sudoers import sudoers_list
-from VenomX.utils.database import (
+from LisaMusic import Platform, app
+from LisaMusic.misc import SUDOERS, _boot_
+from LisaMusic.plugins.bot.help import paginate_modules
+from LisaMusic.plugins.play.playlist import del_plist_msg
+from LisaMusic.plugins.sudo.sudoers import sudoers_list
+from LisaMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -28,10 +28,10 @@ from VenomX.utils.database import (
     is_on_off,
     is_served_private_chat,
 )
-from VenomX.utils.decorators.language import LanguageStart
-from VenomX.utils.formatters import get_readable_time
-from VenomX.utils.functions import MARKDOWN, WELCOMEHELP
-from VenomX.utils.inline import private_panel, start_pannel
+from LisaMusic.utils.decorators.language import LanguageStart
+from LisaMusic.utils.formatters import get_readable_time
+from LisaMusic.utils.functions import MARKDOWN, WELCOMEHELP
+from LisaMusic.utils.inline import private_panel, start_pannel
 
 loop = asyncio.get_running_loop()
 
