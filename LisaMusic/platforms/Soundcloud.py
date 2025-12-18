@@ -6,8 +6,8 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from VenomX.utils.decorators import asyncify
-from VenomX.utils.formatters import seconds_to_min
+from LisaMusic.utils.decorators import asyncify
+from LisaMusic.utils.formatters import seconds_to_min
 
 
 class SoundCloud:
