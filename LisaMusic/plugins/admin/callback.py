@@ -17,12 +17,12 @@ from config import (
     adminlist,
     lyrical,
 )
-from VenomX import Platform, app
-from VenomX.core.call import Ayush
-from VenomX.misc import SUDOERS, db
-from VenomX.utils import seconds_to_min, time_to_seconds
-from VenomX.utils.channelplay import get_channeplayCB
-from VenomX.utils.database import (
+from LisaMusic import Platform, app
+from LisaMusic.core.call import Ayush
+from LisaMusic.misc import SUDOERS, db
+from LisaMusic.utils import seconds_to_min, time_to_seconds
+from LisaMusic.utils.channelplay import get_channeplayCB
+from LisaMusic.utils.database import (
     is_active_chat,
     is_music_playing,
     is_muted,
@@ -33,10 +33,10 @@ from VenomX.utils.database import (
     mute_on,
     set_loop,
 )
-from VenomX.utils.decorators import ActualAdminCB
-from VenomX.utils.decorators.language import languageCB
-from VenomX.utils.formatters import seconds_to_min
-from VenomX.utils.inline.play import (
+from LisaMusic.utils.decorators import ActualAdminCB
+from LisaMusic.utils.decorators.language import languageCB
+from LisaMusic.utils.formatters import seconds_to_min
+from LisaMusic.utils.inline.play import (
     livestream_markup,
     panel_markup_1,
     panel_markup_2,
@@ -45,9 +45,9 @@ from VenomX.utils.inline.play import (
     stream_markup,
     telegram_markup,
 )
-from VenomX.utils.stream.autoclear import auto_clean
-from VenomX.utils.stream.stream import stream
-from VenomX.utils.thumbnails import gen_thumb
+from LisaMusic.utils.stream.autoclear import auto_clean
+from LisaMusic.utils.stream.stream import stream
+from LisaMusic.utils.thumbnails import gen_thumb
 
 wrong = {}
 
