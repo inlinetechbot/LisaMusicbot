@@ -8,10 +8,10 @@ from pyrogram.types import Message
 from strings import command
 
 from config import BANNED_USERS
-from VenomX import app
-from VenomX.core.call import Ayush
-from VenomX.utils.database import is_muted, mute_off, mute_on
-from VenomX.utils.decorators import AdminRightsCheck
+from LisaMusic import app
+from LisaMusic.core.call import Ayush
+from LisaMusic.utils.database import is_muted, mute_off, mute_on
+from LisaMusic.utils.decorators import AdminRightsCheck
 
 
 @app.on_message(command("MUTE_COMMAND") & filters.group & ~BANNED_USERS)
