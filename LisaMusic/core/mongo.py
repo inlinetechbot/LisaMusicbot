@@ -15,14 +15,14 @@ TEMP_MONGODB = "mongodb+srv://usvenom22:a5t0d6w&@cluster0.uozqz80.mongodb.net/?r
 
 
 
-DB_NAME = "Venom"
+DB_NAME = "Lisa"
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
         "No MONGO DB URL found.. Your Bot will work on Yukki's Database"
     )
     temp_client = Client(
-        "Venom",
+        "Lisa",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
