@@ -5,7 +5,7 @@ import math
 
 from pyrogram.types import InlineKeyboardButton
 
-from VenomX.utils.formatters import time_to_seconds
+from LisaMusic.utils.formatters import time_to_seconds
 
 
 def get_progress_bar(percentage):
