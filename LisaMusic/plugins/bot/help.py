@@ -12,10 +12,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, START_IMG_URL
 from strings import get_string, command, helpers, get_command
-from VenomX import HELPABLE, app
-from VenomX.utils.database import get_lang, is_commanddelete_on
-from VenomX.utils.decorators.language import LanguageStart
-from VenomX.utils.inline.help import private_help_panel
+from LisaMusic import HELPABLE, app
+from LisaMusic.utils.database import get_lang, is_commanddelete_on
+from LisaMusic.utils.decorators.language import LanguageStart
+from LisaMusic.utils.inline.help import private_help_panel
 
 COLUMN_SIZE = 4  # Number of button height
 NUM_COLUMNS = 3  # Number of button width
