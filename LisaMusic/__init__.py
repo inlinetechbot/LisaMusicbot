@@ -2,11 +2,11 @@
 #
 # All rights reserved.
 
-from VenomX.core.bot import AyuBot
-from VenomX.core.dir import dirr
-from VenomX.core.git import git
-from VenomX.core.userbot import Userbot
-from VenomX.misc import dbb, heroku, sudo
+from LisaMusic.core.bot import AyuBot
+from LisaMusic.core.dir import dirr
+from LisaMusic.core.git import git
+from LisaMusic.core.userbot import Userbot
+from LisaMusic.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
