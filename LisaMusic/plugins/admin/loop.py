@@ -7,9 +7,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import command
-from VenomX import app
-from VenomX.utils.database.memorydatabase import get_loop, set_loop
-from VenomX.utils.decorators import AdminRightsCheck
+from LisaMusic import app
+from LisaMusic.utils.database.memorydatabase import get_loop, set_loop
+from LisaMusic.utils.decorators import AdminRightsCheck
 
 
 @app.on_message(command("LOOP_COMMAND") & filters.group & ~BANNED_USERS)
