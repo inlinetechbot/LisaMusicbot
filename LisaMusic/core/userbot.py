@@ -22,7 +22,7 @@ class Userbot(Client):
         for i, session in enumerate(self.sessions, start=1):
 
             client = Client(
-                f"VenomString{i}",
+                f"LisaString{i}",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 in_memory=True,
