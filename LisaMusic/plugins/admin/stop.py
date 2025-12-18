@@ -6,11 +6,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_string, command
-from VenomX import app
-from VenomX.core.call import Ayush
-from VenomX.misc import SUDOERS
-from VenomX.plugins import extra_plugins_enabled
-from VenomX.utils.database import (
+from LisaMusic import app
+from LisaMusic.core.call import Ayush
+from LisaMusic.misc import SUDOERS
+from LisaMusic.plugins import extra_plugins_enabled
+from LisaMusic.utils.database import (
     delete_filter,
     get_cmode,
     get_lang,
