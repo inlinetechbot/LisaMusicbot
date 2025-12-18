@@ -6,10 +6,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import command
-from VenomX import Platform, app
-from VenomX.core.call import Ayush
-from VenomX.misc import db
-from VenomX.utils import AdminRightsCheck, seconds_to_min
+from LisaMusic import Platform, app
+from LisaMusic.core.call import Ayush
+from LisaMusic.misc import db
+from LisaMusic.utils import AdminRightsCheck, seconds_to_min
 
 
 @app.on_message(
