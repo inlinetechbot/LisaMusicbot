@@ -4,8 +4,8 @@
 from pyrogram.enums import ChatType
 
 from strings import get_string
-from VenomX.misc import SUDOERS
-from VenomX.utils.database import get_lang, is_commanddelete_on, is_maintenance
+from LisaMusic.misc import SUDOERS
+from LisaMusic.utils.database import get_lang, is_commanddelete_on, is_maintenance
 
 
 def language(mystic):
