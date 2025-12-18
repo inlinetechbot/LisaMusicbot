@@ -7,7 +7,7 @@ from typing import Union
 
 from config import autoclean, chatstats, userstats
 from config.config import time_to_seconds
-from VenomX.misc import db
+from LisaMusic.misc import db
 
 
 async def put_queue(
