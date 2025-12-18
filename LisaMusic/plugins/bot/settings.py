@@ -13,8 +13,8 @@ from pyrogram.types import (
 
 from config import BANNED_USERS, CLEANMODE_DELETE_MINS, OWNER_ID
 from strings import command
-from VenomX import app
-from VenomX.utils.database import (
+from LisaMusic import app
+from LisaMusic.utils.database import (
     add_nonadmin_chat,
     cleanmode_off,
     cleanmode_on,
@@ -35,9 +35,9 @@ from VenomX.utils.database import (
     set_playmode,
     set_playtype,
 )
-from VenomX.utils.decorators.admins import ActualAdminCB
-from VenomX.utils.decorators.language import language, languageCB
-from VenomX.utils.inline.settings import (
+from LisaMusic.utils.decorators.admins import ActualAdminCB
+from LisaMusic.utils.decorators.language import language, languageCB
+from LisaMusic.utils.inline.settings import (
     audio_quality_markup,
     auth_users_markup,
     cleanmode_settings_markup,
